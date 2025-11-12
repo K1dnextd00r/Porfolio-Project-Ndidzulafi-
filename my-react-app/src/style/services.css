@@ -1,0 +1,547 @@
+.servicePage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+    background: linear-gradient( 177.6deg,  rgb(17, 0, 90) 15.3%, rgb(0, 0, 0) 91.3% );
+    /* background: white; */
+}
+
+.serviceIntro{
+    text-align: center;
+    height: auto;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    color: white;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4)), url('../../src/images/ourServices.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.serviceIntroHeading{
+    font-size: 60px;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+.serviceIntroParagraph{
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 0;
+    width: 96%;
+}
+
+
+
+/* ============================== */
+/*     Core Services section      */
+/* ============================== */
+.coreServices{
+    text-align: center;
+    display: fixed;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: auto;
+    color: white;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    /* border: 2px solid red; */
+}
+
+.coreServicesHeader{
+    color: white;
+    font-size: 3.8rem;
+    border: 2px solid;
+    border-image: radial-gradient(circle,rgb(40, 3, 250) 7%, rgba(0, 62, 186, 1) 35%, rgba(2, 0, 36, 1) 100%) 1 0;
+    margin-bottom: 0;
+}
+
+.coreServicesText{
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Core Services Cards CSS */
+.coreService-box {
+    gap: 20px;
+    padding: 30px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    align-items: flex-start;
+    /* background-color: #f5f7fb; */
+    /* font-family: 'Montserrat', 'Calibri', sans-serif; */
+    /* border: 2px solid red; */
+}
+
+.coreService-card {
+    /* background: white; */
+    text-align: left;
+    /* border-radius: 10px; */
+    padding: 0 20px 20px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 46%;
+    /* width: 30rem; */
+    border: 3px solid #2049ff;
+    border-radius: 1.5em;
+    /* background: linear-gradient(to bottom right, rgb(0, 0, 255, 1), rgba(75, 30, 133, 0.01)); */
+    background: #01017a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.coreService-card:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 11, 109, 0.902) 0px 11px 35px 4px;
+    /* box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1); */
+}
+
+.coreServicesCard-Heading {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 7px 0 5px 0;
+}
+
+/* Paragraph text */
+.coreServicesCard-Text {
+    color: white;
+    font-size: 24px;
+    margin: 10px 0 15px 0;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/* List styles */
+.coreServicesCard-List{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    /* padding-left: 10px; */
+    margin-bottom: 8px;
+    font-weight: 560;
+    font-size: 20px;
+    color: white;
+}
+
+
+/* ============================== */
+/*   Our Quality Promise Section  */
+/* ============================== */
+.quality-Section{
+    gap: 20px;
+    padding: 10px;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    /* border: 3px solid red; */
+}
+
+.qualityCard {
+    background: rgb(1, 1, 122);
+    border: 3px solid #2049ff;
+    border-radius: 10px;
+    /* padding: 25px 30px; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center; /* vertically aligns text and image */
+    justify-content: space-between;
+    padding: 20px;
+    /* border: 2px solid red; */
+    max-width: 44%;
+    height: 16rem;
+    gap: 1rem; 
+}
+
+.qualityCard:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 11, 109, 0.902) 0px 11px 35px 4px;
+    /* box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1); */
+}
+
+.quality-Symbol{
+    flex: 0.5;
+    display: flex;
+    font-size: 5rem;
+    color: white;
+    justify-content: center;
+    position: relative;
+    /* border: 2px solid red; */
+    /* margin-left: 10rem; */
+}
+
+.quality-Text{
+    color: white;
+    flex:6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    /* border: 3px solid rgb(14, 243, 14); */
+}
+
+.qualitycard-Heading{
+    /* color: #0c2d9c; */
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.qualitycard-Text{
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* =============================== */
+/*   HEALTH & SAFETY EXCELLENCE    */
+/* =============================== */
+
+.healthCareBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.healthCare-Card{
+    height: auto;
+    width: 23rem;
+    /* border: 2px solid red; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75em;
+    margin: 1rem;
+}
+
+.healthCareHeading{
+    font-size: 4rem;
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+
+.healthCareText{
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: 0;
+    font-style: italic;
+}
+
+.healthCareCard {
+    background: rgb(1, 1, 122);
+    border: 3px solid #2049ff;
+    border-radius: 10px;
+    /* padding: 25px 30px; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center; /* vertically aligns text and image */
+    justify-content: space-between;
+    padding: 20px;
+    /* border: 2px solid red; */
+    max-width: 44%;
+    height: 40rem;
+    gap: 1rem; 
+}
+
+.healthCareCard:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 11, 109, 0.902) 0px 11px 35px 4px;
+    /* box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1); */
+}
+
+.healthCare-Symbol{
+    flex: 0.5;
+    display: flex;
+    font-size: 5rem;
+    color: white;
+    justify-content: center;
+    position: relative;
+    text-align: start;
+    /* border: 2px solid red; */
+    height: 38rem;
+    /* margin-left: 10rem; */
+}
+
+.health-Text{
+    color: white;
+    flex:6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    /* border: 3px solid rgb(14, 243, 14); */
+}
+
+.healthCare-MainHeading{
+    /* color: #0c2d9c; */
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.healthCare-subHeading{
+    /* color: #0c2d9c; */
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 1px;
+    margin-top: 7px;
+}
+
+.healthCare-Text{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 6px;
+}
+
+/* Styling for the bullet-point list */
+.healthCare-List {
+    padding-left: 20px; /* Indent the bullet points */
+    margin-bottom: 15px;
+}
+
+/* Styling for each list item */
+.healthCare-Item {
+    list-style-type: disc;
+    line-height: 1.3;
+    /* margin-bottom: 8px;  */
+}
+
+
+/* ================================== */
+/*        OPERATIONS & SKILLS         */
+/* ================================== */
+.operationsBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.operations-Card{
+    height: auto;
+    width: 25rem;
+    /* border: 2px solid red; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75em;
+    margin: 1rem;
+    height: 21rem;
+}
+
+.operationsHeading{
+    font-size: 1.55rem;
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+
+.operationsText{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 0;
+    font-style: italic;
+}
+
+.operationSymbol{
+    flex: 0.5;
+    display: flex;
+    font-size: 5.5rem;
+    color: white;
+    justify-content: center;
+    position: relative;
+    text-align: start;
+    /* border: 2px solid red; */
+    /* margin-left: 10rem; */
+}
+
+/* --- Tablet adjustments (≤ 900px) --- */
+@media (max-width: 900px) {
+    .serviceIntroHeading {
+        font-size: 45px;
+        width: 95%;
+    }
+
+    .serviceIntroParagraph {
+        font-size: 22px;
+        width: 90%;
+    }
+
+    /* Core Services */
+    .coreService-box {
+        gap: 1rem;
+    }
+
+    .coreService-card {
+        width: 45%; /* two cards per row */
+        padding: 15px;
+    }
+
+    /* Quality Promise */
+    .quality-Section {
+        gap: 1rem;
+    }
+
+    .qualityCard {
+        max-width: 48%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .quality-Symbol {
+        font-size: 4rem;
+    }
+
+    .quality-Text {
+        font-size: 18px;
+    }
+
+    /* Health & Safety */
+    .healthCareCard {
+        max-width: 48%;
+        height: auto;
+    }
+
+    .healthCare-Symbol {
+        font-size: 4rem;
+        height: auto;
+    }
+
+    .health-Text {
+        font-size: 18px;
+    }
+
+    /* Operations & Skills */
+    .operations-Card {
+        max-width: 48%;
+        height: auto;
+    }
+
+    .operationSymbol {
+        font-size: 4rem;
+    }
+}
+
+/* --- Mobile adjustments (≤ 600px) --- */
+@media (max-width: 600px) {
+    .serviceIntroHeading {
+        font-size: 35px;
+    }
+
+    .serviceIntroParagraph {
+        font-size: 18px;
+    }
+
+    /* Core Services */
+    .coreService-card {
+        width: 90%; /* stack vertically */
+        margin: 0.5rem auto;
+        padding: 10px;
+    }
+
+    /* Quality Promise */
+    .qualityCard {
+        max-width: 90%;
+        margin: 0.5rem auto;
+        padding: 10px;
+    }
+
+    .quality-Symbol {
+        font-size: 3rem;
+    }
+
+    .quality-Text {
+        font-size: 16px;
+    }
+
+    /* Health & Safety */
+    .healthCareCard {
+        max-width: 90%;
+        margin: 0.5rem auto;
+        padding: 10px;
+    }
+
+    .healthCare-Symbol {
+        font-size: 3rem;
+        height: auto;
+    }
+
+    .health-Text {
+        font-size: 16px;
+    }
+
+    /* Operations & Skills */
+    .operations-Card {
+        max-width: 90%;
+        margin: 0.5rem auto;
+    }
+
+    .operationSymbol {
+        font-size: 3rem;
+    }
+}
+
+/* --- Small mobile screens (≤ 400px) --- */
+@media (max-width: 400px) {
+    .serviceIntroHeading {
+        font-size: 28px;
+    }
+
+    .serviceIntroParagraph {
+        font-size: 16px;
+    }
+
+    .coreService-card,
+    .qualityCard,
+    .healthCareCard,
+    .operations-Card {
+        width: 95%;
+        padding: 8px;
+    }
+
+    .quality-Symbol,
+    .healthCare-Symbol,
+    .operationSymbol {
+        font-size: 2.5rem;
+    }
+
+    .quality-Text,
+    .health-Text,
+    .operationsText {
+        font-size: 14px;
+    }
+
+    .coreServicesCard-Text {
+        font-size: 18px;
+    }
+
+    .coreServicesCard-Heading,
+    .qualitycard-Heading,
+    .healthCare-MainHeading {
+        font-size: 1.8rem;
+    }
+}

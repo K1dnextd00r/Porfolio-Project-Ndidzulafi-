@@ -1,0 +1,424 @@
+.investorPage{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    background: linear-gradient( 177.6deg,  rgb(17, 0, 90) 15.3%, rgb(0, 0, 3) 91.3% );
+}
+
+.investirIntro{
+    text-align: center;
+    height: auto;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    color:  white;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4)), url('../../src/images/InvestorRelations.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.investirIntroHeading{
+    font-size: 60px;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+.investirIntroParagraph{
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 0;
+    width: 96%;
+}
+
+/* CSS for the text that will be added to the page */
+.investorInfo{
+    text-align: center;
+    display: fixed;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: auto;
+    color: white;
+}
+
+/* Financial highlights section */
+.financialHighlights{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+}
+
+.highlightHeading{
+    font-size: 3.8rem;
+    border: 2px solid;
+    border-image: radial-gradient(circle,rgba(40, 3, 250, 1) 7%, rgba(0, 62, 186, 1) 35%, rgba(2, 0, 36, 1) 100%) 1 0;
+    margin-bottom: 0;
+}
+
+.highlightText{
+    font-style: italic;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.highlightBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Actual card CSS */
+.highlightCard{
+    height: auto;
+    width: 20rem;
+    /* border: 2px solid red; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0.5rem;
+}
+
+.highlightCardHeading{
+    font-size: 2.4rem;
+    margin-bottom: 2px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.highlightCardText{
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: 0;
+    font-style: italic;
+}
+
+.highlightCardNum{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.highlightCardNum.positive { color: #a8bfff; }
+.highlightCardNum.negative { color: #160068; }
+
+/* Why Invest in Ndidzulafhi */
+.whyInvestInfo{
+    text-align: center;
+    display: fixed;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: auto;
+    color: white;
+}
+
+.whyInvest{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+}
+
+.whyInvestBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.whyInvestCard{
+    height: 18rem;
+    width: 30rem;
+    border: 2px solid rgba(0, 0, 133, 0.3);
+    border-radius: 1.5em;
+    background: linear-gradient(to bottom right, rgb(0, 0, 255, 1), rgba(75, 30, 133, 0.01));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75em;
+    backdrop-filter: blur(12px);
+    margin: 1rem;
+    transition-duration: 0.6s;
+}
+
+.whyInvestCard:hover{
+    transform: scale(1.01);
+    box-shadow: rgba(61, 80, 255, 0.902) 0px 11px 35px 4px;
+    transition-duration: 1s;
+}
+
+.whyInvestIcon{
+    font-size: 4rem;
+}
+
+.whyInvestHeading{
+    font-size: 2.15rem;
+    margin-bottom: 2px;
+}
+
+.whyInvestText{
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: 0;
+    font-style: italic;
+}
+
+/* Report and Documentation */
+.documentSections{
+    /* text-align: center; */
+    display: fixed;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: auto;
+    color: white;
+}
+
+/* .repAndDoc{
+    border: 2px solid red;
+} */
+
+.reportBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: flex-start;
+    /* border: 2px solid greenyellow; */
+    padding: 0.8rem;
+}
+
+.reportCard{
+    border: 2px solid #2049ff;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 46%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 10rem;
+    padding: 15px;
+    /* justify-content: space-between; */
+    cursor: pointer;
+}
+
+.reportCardHeading{
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+}
+
+.reportCardText{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.reportCardBottom{
+    position: inherit;
+    top: 1px ;
+    display: flex;
+    align-items: center; /* vertically aligns text and image */
+    justify-content: space-between;
+    /* border: 2px solid rgb(252, 49, 208); */
+    width: 100%;
+    margin: 1.3rem auto;
+    gap: 5rem; /* space between text and image */
+}
+
+.reportCardCategory{
+    color: rgb(172, 172, 172);
+    background-color: rgba(0, 119, 255, 0.2);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.reportCardButton{
+    padding-right: 2px;
+    color:#2049ff;
+    padding: 5px;
+    border: 2px solid #2049ff;
+    border-radius: 13px;
+    text-decoration: none; 
+    background-color: #170068;
+}
+
+/* --- Tablet adjustments (≤ 900px) --- */
+@media (max-width: 900px) {
+    .investirIntro {
+        height: 80vh;
+        background-position: center;
+        padding: 0 1rem;
+    }
+
+    .whyInvestBox {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .whyInvestCard {
+        width: 45%; /* two cards per row */
+        height: auto; /* let height adjust automatically */
+    }
+
+    .investirIntroHeading {
+        font-size: 45px;
+        width: 95%;
+    }
+
+    .investirIntroParagraph {
+        font-size: 22px;
+        width: 90%;
+    }
+
+    .highlightCard, .whyInvestCard, .reportCard {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .highlightBox, .whyInvestBox, .reportBox {
+        gap: 1rem;
+    }
+
+    .highlightCardHeading, .whyInvestHeading, .reportCardHeading {
+        font-size: 1.8rem;
+    }
+
+    .highlightCardText, .whyInvestText, .reportCardText {
+        font-size: 1.1rem;
+    }
+
+    .highlightCardNum {
+        font-size: 1.1rem;
+    }
+
+    .whyInvestIcon {
+        font-size: 3rem;
+    }
+}
+
+    /* --- Mobile adjustments (≤ 600px) --- */
+@media (max-width: 600px) {
+    .investirIntro {
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        padding: 1rem;
+    }
+
+    .investirIntroHeading {
+        font-size: 35px;
+        margin-bottom: 1rem;
+    }
+
+    .investirIntroParagraph {
+        font-size: 18px;
+    }
+
+    .whyInvestCard {
+        width: 90%; /* stack vertically and occupy most of screen width */
+        margin: 0.5rem auto;
+    }
+
+    .highlightCard, .whyInvestCard, .reportCard {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 0.5rem auto;
+    }
+
+    .highlightBox, .whyInvestBox, .reportBox {
+        gap: 0.5rem;
+    }
+
+    .highlightCardHeading, .whyInvestHeading, .reportCardHeading {
+        font-size: 1.5rem;
+    }
+
+    .highlightCardText, .whyInvestText, .reportCardText {
+        font-size: 1rem;
+    }
+
+    .highlightCardNum {
+        font-size: 1rem;
+    }
+
+    .whyInvestIcon {
+        font-size: 2.5rem;
+    }
+
+    .reportCardBottom {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+}
+
+/* --- Small mobile screens (≤ 400px) --- */
+@media (max-width: 400px) {
+    .investirIntroHeading {
+        font-size: 28px;
+    }
+
+    .investirIntroParagraph {
+        font-size: 16px;
+    }
+
+    .whyInvestCard {
+        width: 95%; /* almost full width */
+        padding: 0.8rem;
+    }
+
+    .whyInvestHeading {
+        font-size: 1.5rem;
+    }
+
+    .whyInvestText {
+        font-size: 1rem;
+    }
+
+    .whyInvestIcon {
+        font-size: 2rem;
+    }
+
+    .highlightCard, .whyInvestCard, .reportCard {
+        padding: 0.5rem;
+        max-width: 100%;
+    }
+
+    .highlightCardHeading, .whyInvestHeading, .reportCardHeading {
+        font-size: 1.2rem;
+    }
+
+    .highlightCardText, .whyInvestText, .reportCardText {
+        font-size: 0.9rem;
+    }
+
+    .highlightCardNum {
+        font-size: 0.9rem;
+    }
+
+    .whyInvestIcon {
+        font-size: 2rem;
+    }
+
+    .reportCardBottom {
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+}
