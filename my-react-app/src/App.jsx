@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header.jsx';
-import Home from './Pages/Home.jsx';
+import Home from './pages/home.jsx';
 import About from './pages/aboutUs.jsx';
 import Divisions from './pages/divisions.jsx';
 import Investor from './pages/investor.jsx';
