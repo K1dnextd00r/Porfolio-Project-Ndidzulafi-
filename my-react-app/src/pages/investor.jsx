@@ -1,8 +1,8 @@
 import '../style/investor.css'
 import { useState, useEffect } from "react";
-import FinancialHighlights from '../components/FinancialHighlights';
-import ReportsAndDocuments from '../components/reports&Docs';
-import Footer from '../components/footer'
+import FinancialHighlights from 'src/components/financialHighlights';
+import ReportsAndDocuments from 'src/components/reports&Docs';
+import Footer from 'src/components/footer'
 
 function Investor(){
 
