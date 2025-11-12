@@ -105,7 +105,7 @@ function Home(){
                 </div>
                 <div className="ourServices">
                     <h1 className="serviceHeader">Our Business Services</h1>
-                    <p className='serviceText'>We build and manage construction projects with expert teams and proper tools.</p>
+                    <p className='serviceText'>We build and manage construction projects with experienced teams and proper tools.</p>
                     <div className="servicesBox">
                         <div className="serviceCard">
                             <h1 className='cardHeading'>Powered by People, Backed by Gear</h1>
